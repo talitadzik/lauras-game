@@ -1,0 +1,31 @@
+@media only screen and (orientation: portrait) {
+  .container {
+    display: none;
+  }
+  .warning {
+    display: block;
+  }
+}
+@media only screen and (orientation: landscape) {
+  .warning {
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .buttonsRooms {
+    display: flex;
+    flex-direction: column;
+    .buttonsRoomsRow {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .buttonsActions {
+    display: flex;
+    flex-direction: row;
+  }
+}
