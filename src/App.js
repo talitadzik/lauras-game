@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className={styles.warning}>
-        <img src="https://i.postimg.cc/FsmS9pNk/image.png" />
+        Ta aplikacja działa tylko w widoku poziomym.
       </div>
       <div className={styles.container}>
         <div className={styles.buttonsRooms}>
